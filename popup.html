@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Score (5-41)</h3>
+    
+    <input type="number" id="number" value="41" min="5" max="41"/>
+
+    <h3>Delay (0-300)ms</h3>
+    <div class="slidecontainer">
+        <input type="range" id="delay" value="0" min="0" max="300" step="50"/>
+        <div id="value">0</div>
+    </div>
+    <h3></h3>
+
+    <div id="check">
+        <input type="checkbox" id="notification" name="notification">
+        <label for="notification"><span>Inform me with notification</span></label>
+    </div>
+    <br>
+
+    <a href="https://humanbenchmark.com/tests/chimp" target="_blank" id="go">Start Test</a>
+
+    <script src="popup.js"></script>
+</body>
+</html>

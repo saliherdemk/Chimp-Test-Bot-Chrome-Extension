@@ -1,0 +1,30 @@
+body{
+    border: none;
+    background-color: white;
+    width: 225px;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+
+a:hover{
+    background-color: green;
+    color: white;
+}
+
+#number,#delay{
+    position: relative;
+    width: 80%;
+}
+
+span{
+    font-size: larger;
+    font-weight: bolder;
+}
