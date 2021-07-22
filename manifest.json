@@ -13,5 +13,5 @@
       "default_popup": "popup.html",
       "default_icon": "media/icon.png"
     },
-    "permissions": [ "tabs" ,"storage","notifications"]
+    "permissions": ["storage","notifications"]
   }
